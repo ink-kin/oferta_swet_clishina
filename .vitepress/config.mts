@@ -23,7 +23,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ink-kin/oferta_swet_clishina.git' },
+      { icon: 'github', link: 'https://github.com/ink-kin/oferta_swet_clishina_html.git' }
     ]
   }
 })
