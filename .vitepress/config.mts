@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Оферта",
   description: "Оферта на заключение договора оказания архитектурных и проектных услуг",
+  sitemap: {
+    hostname: 'https://xn--80aj0ajkj.xn--80apagfo9e.xn--p1ai/'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
