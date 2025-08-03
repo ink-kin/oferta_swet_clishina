@@ -6,7 +6,7 @@ dist
 cache
 node_modules
 pnpm-global
-
+build.sh
 ### Node template
 # Logs
 logs

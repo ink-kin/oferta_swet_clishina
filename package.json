@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "npm run docs:outFile && git add . && git commit  && git push && vitepress build docs && mc && cd /mnt/doc/html/dist/oferta_swet_clishina_html && git add . && git commit  && git push && cd /mnt/doc/html/документы_сделанные_через_mkDocs/АрхитекторМамСамозанятый/",
     "cli:help": "press-export-pdf --help",
     "version": "press-export-pdf --version",
     "systemInfo": "press-export-pdf info",

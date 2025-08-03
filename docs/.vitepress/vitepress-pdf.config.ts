@@ -16,7 +16,7 @@ const footerTemplate = `<div style="margin-bottom: -0.4cm; height: 70%; width: 1
 </div>`
 
 export default defineUserConfig({
-  outFile: 'Оферта_на_заключение_договора_оказания_архитектурных_и_проектных_услуг.pdf',
+  outFile: 'oferta.pdf',
   outDir: 'docs/public/pdf',
   pdfOptions: {
     format: 'A4',
@@ -31,7 +31,7 @@ export default defineUserConfig({
       top: 60,
     },
   },
-  urlOrigin: 'https://xn--80aj0ajkj.xn--80apagfo9e.xn--p1ai/',
+  urlOrigin: 'https://оферта.клишина.рф/',
   sorter: (pageA, pageB) => {
     const aIndex = routeOrder.findIndex(route => route === pageA.path)
     const bIndex = routeOrder.findIndex(route => route === pageB.path)
